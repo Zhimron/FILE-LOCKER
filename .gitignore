@@ -1,0 +1,29 @@
+# Python cache/test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local config/secrets
+.env
+*.key
+
+# App-generated encrypted files / user data
+*.locked
+*.locked.v2
+
+# PyInstaller build output
+build/
+dist/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
